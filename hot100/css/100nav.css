@@ -1,0 +1,106 @@
+.nav{
+				width: 1000px;
+				margin: 0 auto;
+				background: gainsboro;
+				border-radius: 10px;
+				padding: 20px 0 0;	
+			}
+			
+			ul{
+				list-style: none;
+				margin-left: 470px;
+				margin-bottom: 0px;
+				margin-top: -1px;
+				float: left;
+				
+				
+			}
+			
+			
+			li{
+				width: 80px;
+				height: 20px;
+				background: whitesmoke;
+				border: 1px solid peru;
+				border-top-left-radius: 5px;
+				border-top-right-radius: 5px;
+				display: inline-block;
+				padding: 0;
+				line-height: 20px;
+				text-align: center;
+				border-bottom: transparent;
+			
+				
+			}
+			
+			li:hover{
+				background: red;
+			}
+			
+			
+			
+			.n1{
+				height: 50px;
+				width: 999px;
+				background:red;
+				border: 1px solid red;
+				border-radius:10px;
+			}
+			.n2{
+				margin-top: 15px;
+				width: 425px;
+				height: 20px;
+				background: white;
+				border-radius: 5px;
+				margin-left: 215px;
+				font-size: 12px;
+				line-height: 20px;
+			}
+			
+			.n3{
+				width: 50px;
+				height: 20px;
+				border-radius: 10px;
+				color: black;
+				background: white;
+				font-size: 14px;
+				text-align: center;
+				margin-left: 40px;
+				border-radius:5px ;
+				
+			}
+			
+			.n3>img{
+				
+			}
+			
+			.n4{
+				color: white;
+				font-size: 12px;
+				padding-left: 60px;
+			}
+			
+			.n2,.n3,.n4{
+				display: inline-block;
+			}
+			
+			.n5_1{
+				margin-top: 20px;
+				margin-left: 220px;
+				width: 40px;
+				height: 10px;
+				background: red;
+				font-size: 10px;
+				text-align: center;
+			}
+			
+			.n5_2{
+				font-size: 10px;
+				margin-right: 20px;
+			}
+			
+			.n5_1,.n5_2{
+				display: inline-block;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}

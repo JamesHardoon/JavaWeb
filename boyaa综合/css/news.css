@@ -1,0 +1,176 @@
+.newsbanner {
+	width: 100%;
+	height: 254px;
+	background: #fffaf4 url(../images/newsbanner.jpg) repeat-x center top;
+}
+/* location的news部分 */
+.location {
+	height: 29px;
+	padding: 25px 0 15px;
+	border-bottom: 1px solid #c7d6e5;
+}
+.location h2.news_t {
+	background-position: 0 6px;  /*游戏图标的位置*/
+}
+.location h2 {
+	float: left;
+	height: 29px;
+	line-height: 29px;
+	font-size: 20px;
+	color: #444866;
+	padding-left: 30px;  /*博雅游戏字体距左边的距离*/
+	background: url(../images/location.png) no-repeat 0 -44px; 
+}
+.location .qlink {
+	float: right;
+	line-height: 20px;
+	height: 20px;
+	margin-top: 4px;
+	color: #444866;
+}
+.location .qlink a.home{
+	width: 20px;
+	height: 20px;
+	background: url(../images/home.png) no-repeat center 3px;
+}
+.location .qlink em {
+	display: inline-block;
+    vertical-align: middle;
+    background: url(../images/icon.png) no-repeat 0 -150px;
+    width: 4px;
+    height: 8px;
+    line-height: 8px;
+    margin: 0 7px;
+}
+.location .qlink label ,
+.location .qlink a {
+	display: inline-block;
+	vertical-align: middle;
+}
+/* newsmain部分的newsleft部分 */
+.newsmain {
+	padding-bottom: 40px;
+	width: 1000px;
+    margin: auto;
+    clear: both;
+}
+.newsmain .newsleft {
+	float: left;
+    width: 730px;
+    padding-top: 20px;
+}
+.newsmain .newsleft .newsbox .topnews {
+	border-bottom: 1px solid #d1dce7;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.newsmain .newsleft .newsbox .topnews h2 {
+	font-size: 1.166em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.newsmain .newsleft .newsbox .topnews h2 label {
+	    color: #38b774;
+}
+label {
+	cursor: default;
+}
+.newsmain .newsleft .newsbox .topnews h2 .time {
+    padding-left: 24px;
+    color: #afbecf;
+    font-size: 12px;
+    background: url(../images/icon.png) no-repeat 0 -298px;
+    float: right;
+    font-weight: normal;
+}
+.newsmain .newsleft .newsbox .topnews .newspic {
+	padding: 15px 0;
+    text-align: center;
+}
+.newsmain .newsleft .newsbox .topnews .newspic img {
+    width: 600px;
+}
+img {
+	border: none;
+    vertical-align: middle;
+}
+.newsmain .newsleft .newsbox .topnews .summary {
+    line-height: 2.2;
+    text-indent: 28px;
+    font-size: 1.166em;
+}
+.newsmain .newsleft .newsbox .topnews .summary a {
+	color: #38b774;
+}
+.newsmain .newsleft .newsbox .newslist li {
+    line-height: 1.8;
+    padding: 15px 0;
+    font-size: 1.166em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.newsmain .newsleft .newsbox .newslist li a {
+    font-weight: bold;
+}
+/* 底部的123小方块 */
+.newsmain .newsleft .newsbox .newspages {
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    text-align: center;
+    clear: both;
+    padding: 20px;
+}
+.newsmain .newsleft .newsbox .newspages a {
+	color: #444866;
+    font-size: 12px;
+    text-decoration: none;
+    vertical-align: middle;
+    display: inline-block;
+    min-width: 22px;
+    height: 22px;
+    background: #fff;
+    border: 1px solid #c3cbe3;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 22px;
+    margin-left: 6px;
+
+    margin: 0 5px;
+    padding: 2px;
+}
+.newsmain .newsleft .newsbox .newspages a:hover {
+	background-color: gray;
+	color: white;
+}
+/* newsmain部分的newsright部分 */
+.newsmain .newsright {
+    float: right;
+    width: 230px;
+    padding-left: 20px;
+    border-left: 1px solid #dbe1e7;
+    padding-top: 20px;
+}
+.newsmain .newsright .newstopic .newstopicul {
+	width: auto;
+    height: auto;
+}
+.newsmain .newsright .newstopic .newstopicul li {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.newsmain .newsright .newstopic .newstopicul li h5 {
+    font-size: 1.166em;
+    margin-bottom: 10px;
+}
+.newsmain .newsright .newstopic .newstopicul li  h5 a span {
+    display: inline-block;
+    padding-right: 12px;
+    background: url(../images/arrow.png) no-repeat right center;
+}
+.newsmain .newsright .newstopic .newstopicul li .newstopic_img {
+	width: 134px;
+	height: 230px;
+}

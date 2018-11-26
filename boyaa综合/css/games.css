@@ -1,0 +1,206 @@
+/* 博雅游戏css */
+/* banner */
+.gamesbanner {
+	width: 100%;
+	height: 254px;
+	background: #fffaf4 url(../images/gamebanner.jpg) repeat-x center top;
+}
+
+/* location的games部分 */
+.location {
+	height: 29px;
+	padding: 25px 0 15px;
+	border-bottom: 1px solid #c7d6e5;
+	//margin-bottom: 100px;	/*测试用*/
+}
+.location h2.game_t {
+	background-position: 0 -94px;  /*游戏图标的位置*/
+}
+.location h2 {
+	float: left;
+	height: 29px;
+	line-height: 29px;
+	font-size: 20px;
+	color: #444866;
+	padding-left: 30px;  /*博雅游戏字体距左边的距离*/
+	background: url(../images/location.png) no-repeat 0 -44px; 
+}
+.location .qlink {
+	float: right;
+	line-height: 20px;
+	height: 20px;
+	margin-top: 4px;
+	color: #444866;
+}
+.location .qlink a.home{
+	width: 20px;
+	height: 20px;
+	background: url(../images/home.png) no-repeat center 3px;
+}
+.location .qlink em {
+	display: inline-block;
+    vertical-align: middle;
+    background: url(../images/icon.png) no-repeat 0 -150px;
+    width: 4px;
+    height: 8px;
+    line-height: 8px;
+    margin: 0 7px;
+}
+.location .qlink label ,
+.location .qlink a {
+	display: inline-block;
+	vertical-align: middle;
+}
+/* gamesmain的gleft部分 */
+.gamesmain {
+	padding-bottom: 40px;
+
+	width: 1000px;
+	height: 1197px;
+	margin: auto;
+	clear: both;
+}
+.gamesmain .gleft {
+	float: left;
+	width: 195px;
+	padding-top: 40px;
+}
+/* 给gleft导航栏下面加boerder-bottom */
+.gamesmain .gleft .gnav .gnavlist li {
+	border-bottom: 1px solid #cad6e1;
+}
+.gamesmain .gleft .gnav .gnavlist li.on {
+	background: url(../images/arrow.png) no-repeat right center;
+}
+.gamesmain .gleft .gnav .gnavlist li a {
+	position: relative;
+	display: block;
+	padding-left: 52px;
+	height: 80px;
+	width: 143px;
+	font: 1.333em/80px Arial;
+}
+.gamesmain .gleft .gnav .gnavlist li a i {
+	position: absolute;
+	left: 0;
+	top: 23px;
+	height: 41px;
+	width: 34px;
+	background: url(../images/pad.png) no-repeat;
+}
+.gamesmain .gleft .gnav .gnavlist li a i.iPhone {
+	background-position: -125px 0;
+}
+.gamesmain .gleft .gnav .gnavlist li a i.Android {
+	background-position: -4px -97px;
+}
+.gamesmain .gleft .gnav .gnavlist li a i.iPad {
+	background-position: 0 -199px;
+}
+.gamesmain .gleft .gnav .gnavlist li a i.PC {
+	background-position: 0 -295px;
+}
+.gamesmain .gleft .gnav .gnavlist li a i.TV {
+	background-position: 0 -602px;
+}
+/* gamesmain的gright部分 */
+.gamesmain .gright {
+	float: right;
+    width: 757px;
+    padding-top: 44px;
+}
+.gamesmain .gright .gamelistcon {
+	width: 757px;
+    overflow: hidden;
+}
+.gamesmain .gright .gamelistcon .gamelist {
+	width: 110%;
+}
+.gamesmain .gright .gamelistcon .gamelist li {
+	float: left;
+    margin-bottom: 42px;
+    margin-right: 43px;
+    width: 355px;
+    height: 327px;
+    border: 1px solid #cad6e1;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.gamesmain .gright .gamelistcon .gamelist li .gamepic {
+	width: 331px;
+    height: 195px;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+.gamesmain .gright .gamelistcon .gamelist li h3 {
+	height: 55px;
+    padding-top: 3px;
+    line-height: 55px;
+    font-weight: normal;
+    font-size: 1.333em;
+}
+.gamesmain .gright .gamelistcon .gamelist li h3 span {
+	padding-right: 1.166em;
+    font-size: 12px;
+    font-family: Arial;
+    color: #38b774;
+    background: url(../images/arrow.png) no-repeat right center;
+    text-transform: uppercase;
+    margin-left: 4px;
+}
+.gamesmain .gright .gamelistcon .gamelist li .gamelink {
+	width: 331px;
+    height: 36px;
+    margin: auto;
+}
+.gamesmain .gright .gamelistcon .gamelist li .gamelink .appstore {
+	float: left;
+    height: 36px;
+    border-right: 1px solid #c7d6e5;
+    width: 169px;
+    text-align: center;
+}
+.gamesmain .gright .gamelistcon .gamelist li .gamelink .appstore a {
+	display: inline-block;
+    vertical-align: top;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 33px;
+    font-size: 1.166em;
+    font-family: Arial;
+    background: url(../images/icon.png) no-repeat 0 -347px;
+}
+.gamesmain .gright .gamelistcon .gamelist li .gamelink .ewmlink {
+	float: left;
+    width: 160px;
+    height: 36px;
+    position: relative;
+}
+.gamesmain .gright .gamelistcon .gamelist li .gamelink .ewmlink i {
+	position: absolute;
+    background: url(../images/ewmbg.png) no-repeat;
+    padding-top: 10px;
+    /* padding-top: 1.166em; */
+    text-align: center;
+    width: 146px;
+    height: 142px;
+    left: -29px;
+    bottom: 34px;
+    display: none;
+}
+.gamesmain .gright .gamelistcon .gamelist li .gamelink .ewmlink:hover i {
+	display: block;
+}
+.gamesmain .gright .gamelistcon .gamelist li .gamelink .ewmlink .com a {
+	display: inline-block;
+    vertical-align: top;
+    padding-left: 40px;
+    line-height: 36px;
+    font-size: 1.166em;
+    background: url(../images/icon.png) no-repeat 0 -448px;
+}
+.gamesmain .gright .gamelistcon .gamelist li .gamelink .ewmlink .phone {
+	display: none;
+}

@@ -1,0 +1,544 @@
+/* banner部分 */
+.banner{
+    width:  100%;
+    height: 460px;
+    position: relative;
+}
+.banner .imgs{
+    width:  100%;
+    height: 460px;
+}
+.banner .imgs ul li{
+    width:  100%;
+    height: 460px;
+    background: url(../images/2018banner.jpg) no-repeat center top;
+    position: absolute;
+    display:none;
+}
+.banner .imgs .one{
+    background: url(../images/2018banner.jpg) no-repeat center top;
+}
+.banner .imgs .two{
+    background: url(../images/banner_201711.jpg) no-repeat center top;
+}
+.banner .imgs .three{
+    background: url(../images/bpt_banneren.jpg) no-repeat center top;
+}
+.banner .imgs .four{
+    background: url(../images/bannerdz01.png) no-repeat center top;
+}
+.banner .imgs .five{
+    background: url(../images/probanner4.jpg) no-repeat center top;
+}
+.banner .imgs .cur{
+    display:block;
+}
+/* 德州扑克 */
+.banner .imgs .poker .w {
+    padding: 65px 0 0 540px;
+    width: 460px;
+    height: 395px;
+    color: #fff;
+}
+.banner .imgs .poker .w .innertop {
+    height: 66px;
+    postion: relative;
+    margin-bottom: 20px;
+}
+.banner .imgs .poker .w .innertop .img {
+    width: 66px;
+    height: 66px;
+    margin: 0 14px 0 2px;
+}
+.banner .imgs .poker .w .innertop .title h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 44px;
+}
+.banner .imgs .poker .w .innertop .online{
+    position: absolute;
+    //top: 9px;
+    //right: 0;
+    top: 74px;
+    right: 174px;
+}
+.banner .imgs .poker .w .innertop .online dl dt {
+    width: 115px;
+    height: 37px;
+    background: url(../images/online.png) no-repeat;
+}
+.banner .imgs .poker .w .innertop .online dl dt a {
+
+    color: #000;
+    line-height: 37px;
+    margin-left: 20px;
+}
+.banner .imgs .poker .w .innertop .online dl:hover dt {
+    background-position: -120px 0;
+}
+.banner .imgs .poker .w .innertop .online dl dd {
+    width: 85px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 0 0 18px 18px;
+    padding: 0 15px;
+    display: none;
+}
+.banner .imgs .poker .w .innertop .online dl:hover dd {
+    display: block;
+}
+.banner .imgs .poker .w .innertop .online dl dd a {
+    display: inline-block;
+    width: 25px;
+    height: 24px;
+    background: url(../images/online.png) 0 -47px no-repeat;
+}
+.banner .imgs .poker .w .innertop .online dl dd .pt3 {
+    background-position: -50px -47px;
+}
+.banner .imgs .poker .w .innertop .online dl dd .pt4 {
+    background-position: -75px -47px;
+}
+.banner .imgs .poker .w .innertop .online dl dd .pt5 {
+    background-position: -100px -47px;
+}
+.banner .imgs .poker .w p {
+    font-size: 14px;
+    line-height: 30px;
+}
+.banner .imgs .poker .w h5 {
+    background: url(../images/download.png) no-repeat 5px -28px;
+    padding-left: 30px;
+    font-size: 18px;
+    line-height: 41px;
+    color:#FBC660;
+}
+.banner .imgs .poker .w .downlinks {
+    width: 455px;
+    height: 106px;
+    border-radius: 4px;
+    overflow: hidden;
+    //background-color: #bfa; //测试用
+}
+.banner .imgs .poker .w .downlinks  a {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 160px;
+    float: left;
+    width: 83px;
+    height: 106px;
+    margin-right: 1px;
+    background: rgba(255,255,255,0.2) url(../images/pad.png) -210px -182px no-repeat;
+}
+.banner .imgs .poker .w .downlinks a:hover {
+    background-color: #fff;
+    color: #444866;
+}
+.banner .imgs .poker .w .downlinks span {
+    float: left;
+    width: 101px;
+    height: 96px;
+    background-color: rgba(255,255,255,0.7);
+    padding: 12px 0 0 18px;
+}
+.banner .imgs .poker .w .downlinks .ipad {
+    background-position: -210px -182px;
+}
+.banner .imgs .poker .w .downlinks .iphone {
+    background-position:  -218px 18px;
+}
+.banner .imgs .poker .w .downlinks .Android {
+    background-position:  -220px -80px;
+}
+.banner .imgs .poker .w .downlinks .TV {
+    background-position:  -215px -480px;
+}
+.banner .imgs .poker .w .downlinks .ipad:hover {
+    background-position: 28px -180px;
+}
+.banner .imgs .poker .w .downlinks .iphone:hover {
+    background-position: 25px 18px;
+}
+.banner .imgs .poker .w .downlinks .Android:hover {
+    background-position: 20px -80px;
+}
+.banner .imgs .poker .w .downlinks .TV:hover {
+    background-position: 20px -480px;
+}
+/* banner中的第五幅图斗地主 */
+.banner .imgs .doudizhu .w {
+    padding: 65px 0 0 540px;
+    width: 460px;
+    height: 395px;
+    // color: #fff;
+}
+.banner .imgs .doudizhu .w .innertop {
+    height: 66px;
+    postion: relative;
+    margin-bottom: 20px;
+}
+.banner .imgs .doudizhu .w .innertop .online{
+    position: absolute;
+    //top: 9px;
+    //right: 0;
+    top: 74px;
+    right: 174px;
+}
+.banner .imgs .doudizhu .w .innertop .online dl dt {
+    width: 115px;
+    height: 37px;
+    background: url(../images/online.png) no-repeat;
+}
+.banner .imgs .doudizhu .w .innertop .online dl dt a {
+    color: #191d3a;
+    //color: #000;
+    line-height: 37px;
+    margin-left: 20px;
+}
+.banner .imgs .doudizhu .w .innertop .online dl:hover dt {
+    background-position: -120px 0;
+}
+.banner .imgs .doudizhu .w .innertop .online dl dd {
+    width: 85px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 0 0 18px 18px;
+    padding: 0 15px;
+    display: none;
+}
+.banner .imgs .doudizhu .w .innertop .online dl:hover dd {
+    display: block;
+}
+.banner .imgs .doudizhu .w .innertop .online dl dd a {
+    display: inline-block;
+    width: 25px;
+    height: 24px;
+    background: url(../images/online.png) 0 -47px no-repeat;
+}
+.banner .imgs .doudizhu .w .innertop .online dl dd .pt3 {
+    background-position: -50px -47px;
+}
+.banner .imgs .doudizhu .w .innertop .online dl dd .pt4 {
+    background-position: -75px -47px;
+}
+.banner .imgs .doudizhu .w .innertop .online dl dd .pt5 {
+    background-position: -100px -47px;
+}
+.banner .imgs .doudizhu .w p {
+    padding-right:20px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #191d3a;
+}
+.banner .imgs .doudizhu .w h5 {
+    //background: url(../images/download.png) no-repeat 5px -28px;
+    background: url(../images/download.png) no-repeat 5px 14px;
+    padding-left: 30px;
+    font-size: 18px;
+    line-height: 41px;
+    //color:#FBC660;
+    color: #191d3a;
+    font-weight: blod;
+    margin-bottom: 8px;
+}
+.banner .imgs .doudizhu .w .downlinks {
+    width: 455px;
+    height: 106px;
+    border-radius: 4px;
+    overflow: hidden;
+    //background-color: #bfa; //测试用
+}
+.banner .imgs .doudizhu .w .downlinks  a {
+    //color: #fff;
+    color: #191d3a;
+    font-size: 14px;
+    text-align: center;
+    line-height: 160px;
+    float: left;
+    width: 83px;
+    height: 106px;
+    margin-right: 1px;
+    background: rgba(255,255,255,0.7) url(../images/pad.png) -210px -182px no-repeat;
+}
+.banner .imgs .doudizhu .w .downlinks a:hover {
+    background-color: #fff;
+    color: #444866;
+}
+.banner .imgs .doudizhu .w .downlinks span {
+    float: left;
+    width: 101px;
+    height: 96px;
+    background-color: rgba(255,255,255,0.7);
+    padding: 12px 0 0 18px;
+}
+.banner .imgs .doudizhu .w .downlinks .ipad {
+    //background-position: -210px -182px;
+    background-position: 28px -180px;
+}
+.banner .imgs .doudizhu .w .downlinks .iphone {
+    //background-position:  -218px 18px;
+    background-position: 25px 18px;
+}
+.banner .imgs .doudizhu .w .downlinks .Android {
+    //background-position:  -220px -80px;
+    background-position: 20px -80px;
+}
+.banner .imgs .doudizhu .w .downlinks .TV {
+    //background-position:  -215px -480px;
+    background-position: 20px -480px;
+}
+// .banner .imgs .doudizhu .w .downlinks .ipad:hover {
+//     background-position: 28px -180px;
+// }
+// .banner .imgs .doudizhu .w .downlinks .iphone:hover {
+//     background-position: 25px 18px;
+// }
+// .banner .imgs .doudizhu .w .downlinks .Android:hover {
+//     background-position: 20px -80px;
+// }
+// .banner .imgs .doudizhu .w .downlinks .TV:hover {
+//     background-position: 20px -480px;
+// }
+/* banner下面的小圆点 */
+.banner .circles{
+   width: 110px;
+   height: 10px;
+   position:absolute;
+   left: 50%;
+   margin-left:-55px;
+   bottom:20px;
+}
+.banner .circles ol{
+    margin-left:-15px;
+    list-style:none;
+}
+.banner .circles ol li{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-right:15px;
+    border-radius:5px;
+    float: left;
+}
+.banner .circles .cur {
+    background-color: rgba(255, 255, 255, 1);
+}
+/* 左右小箭头 */
+ .banner .arrow {
+    /*用于是否显示小箭头*/
+    //display: none;
+}
+.banner .arrow .arrow-l,
+.banner .arrow .arrow-r{
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    top: 50%;
+    margin-top: -31px;
+    color: #fff;
+    font: 500 18px/62px "宋体";
+    text-align: center;
+    background: rgba(0 , 0 , 0 , 0.2);
+    //z-index:1;
+}
+.banner .arrow .arrow-l {
+   left: 0;
+}
+.banner .arrow .arrow-r {
+   right: 0;
+}
+.banner .arrow .arrow-l:hover, 
+.banner .arrow .arrow-r:hover {
+    background: rgba(0,0,0,.4);
+    color: #fff;
+}
+/* 主要内容indexmain部分 */
+.indexmain{
+    background: url(../images/indexmainbg.jpg) no-repeat center bottom;
+    padding:50px 0 57px 0;
+}
+.indexmain .indexpro{
+    height: 229px;
+    border-bottom: 1px solid #DBE1E7;
+    /* 子绝父相 */
+    position: relative;
+}
+.indexmain .indexpro .lbt{
+    overflow: hidden;
+    height: 200px;
+}
+.indexmain .indexpro .lbt ul{
+    width: 2088px;
+}
+.indexmain .indexpro .lbt ul li{
+    float:left;
+
+    width: 218px;
+    height: 200px;
+    margin-right:43px;
+}
+.indexmain .indexpro .lbt ul li a {
+    display: block;
+    text-align: center;
+}
+.indexmain .indexpro .lbt ul li img{
+    width: 218px;
+}
+.indexmain .indexpro .lbt ul li a:hover img{
+    /*给轮播图加透明度*/
+    opacity: 0.8;
+}
+.indexmain .indexpro .lbt ul li .txt1{
+    /*水平居中*/
+    text-align:center;
+    /*垂直居中*/
+    line-height: 32px;
+}
+.indexmain .indexpro .lbt ul li a:hover .txt1{
+    color:#fff;
+    background-color: #2EBB6F;
+}
+.indexmain .indexpro .lbt ul li .txt1 p span{
+    color:#2EBB6F;
+    background:url(../images/arrow.png) no-repeat right center;
+    padding-right: 10px;
+}
+.indexmain .indexpro .lbt ul li a:hover .txt1 p span{
+    color:#fff;
+    background:url(../images/arrow_hover.png) no-repeat right center;
+}
+/* 2个小圆点 */
+  .indexmain .indexpro .circles{
+    //width:64px;   //加padding减去宽高
+    width: 50px;
+    height: 11px;
+    background-color: #fff;
+    position: absolute;
+    left:50%;
+    margin-left:-32px;
+    bottom:-5.5px;
+    padding-left: 14px;
+ }
+ .indexmain .indexpro .circles ol{
+    list-style:none;
+ }
+ .indexmain .indexpro .circles ol li {
+    float: left;
+    width: 11px;
+    height: 11px;
+    background-color:#B5C0CB;
+    border-radius:5.5px;
+    margin-right:14px;
+ }
+.indexmain .indexpro .circles .cur{
+    background-color: #2EBB6F;
+}
+/* 主要内容indexmain里面的indexinfo的news部分 */
+.indexmain .indexinfo{
+    height: 310px;
+    margin-top: 53px;
+    position: relative;
+}
+.indexmain .indexinfo .news{
+    /**
+     * width: 500px;
+     * height: 310px;
+     * 加padding减去宽高
+     */
+    width: 460px;
+    height: 190px;
+    background: url(../images/bynewsbg.jpg) no-repeat;
+    padding: 120px 20px 0 20px;
+}
+.indexmain .indexinfo .more{
+    /*这里在.more前面不要加.news，因为.more在右边的.jobs还需要用到*/
+    width: 64px;
+    height: 26px;
+    border: 1px solid #33B972;
+    border-radius:4px;
+    position: absolute;
+    left: 218px;
+    top: 50px;
+    color: #33B972;
+    text-align: center;
+}
+.indexmain .indexinfo .more:hover{
+    background-color: #33B972;
+    color: #fff;
+}
+.indexmain .indexinfo .news .newslist{
+    //padding: 110px 20px 0 20px;   //padding不应该给在.newslist内，应该给在.news内
+    height: 200px;
+}
+.indexmain .indexinfo .news .newslist ul li{
+    height: 49px;
+    line-height: 50px;
+    border-bottom: 1px solid #DBE1E7;
+}
+.indexmain .indexinfo .news .newslist ul li a{
+    width: 400px;
+    font-size: 14px;
+    float: left;
+    color: #444866;
+     /*文本不换行*/
+    white-space: nowrap;
+    /*超出部分隐藏*/
+    overflow: hidden;
+    /*文字超出部分以...显示*/
+    text-overflow: ellipsis;
+}
+.indexmain .indexinfo .news .newslist ul li a:hover{
+    color: #33B972;
+}
+.indexmain .indexinfo .news .newslist ul li span{
+    color: #afbecf;
+}
+/* 主要内容indexmain里面的indexinfo的jobs部分 */
+.indexmain .indexinfo .jobs{
+    width: 500px;
+    height: 310px;
+    background: url(../images/byhrbg3.jpg) no-repeat;
+}
+.indexmain .indexinfo .jobs .jobtitle {
+    padding: 40px 0  0 80px;
+}
+.indexmain .indexinfo .jobs .more{
+    left: 716px;
+    border-color: #fff;
+    color: #fff;
+}
+.indexmain .indexinfo .jobs .more:hover{
+    background-color: #fff;
+    color: #33B972;
+}
+.indexmain .indexinfo .jobs .jobtitle h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+.indexmain .indexinfo .jobs .jobtitle p{
+    left: 80px;
+    color: #fff;
+    font-size: 12px;
+}
+.indexmain .indexinfo .jobs .joblist{
+    margin: 20px 175px 0 20px;
+}
+.indexmain .indexinfo .jobs .joblist h3{
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+.indexmain .indexinfo .jobs .joblist ul li{
+    height: 37px;
+    border-bottom: 1px solid #6fdea3;
+    font-size: 14px;
+    line-height: 38px;
+}
+.indexmain .indexinfo .jobs .joblist ul li a{
+    color: #fff;
+}
+.indexmain .indexinfo .jobs .joblist ul li a:hover{
+    color: #fff;
+}

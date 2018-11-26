@@ -1,0 +1,25 @@
+.sitemapbanner {
+	width: 1680px;
+	height: 254px;
+	background-image: url(../images/sitemapbanner.jpg) ;
+    background-color: #243284;
+}
+.area {
+	width: 1000px;
+    margin: auto;
+    clear: both;
+}
+.sitemap {
+   padding: 50px 0;
+}
+.sitemap dl {
+	float: left;
+    width: 24.9%;
+    text-align: center;
+    line-height: 2.6;
+    font-size: 1.166em;
+}
+.sitemap dl dt {
+    font-size: 18px;
+    font-weight: bold;
+}

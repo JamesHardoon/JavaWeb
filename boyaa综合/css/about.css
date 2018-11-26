@@ -1,0 +1,99 @@
+.aboutbanner {
+	width: 100%;
+	height: 254px;
+	background: #fffaf4 url(../images/aboutbanner.jpg) repeat-x center top;
+}
+/* location的about部分 */
+.location {
+	height: 29px;
+	padding: 25px 0 15px;
+	border-bottom: 1px solid #c7d6e5;
+	//margin-bottom: 100px;	/*测试用*/
+}
+.location h2.about_t {
+	//background-position: 0 -94px;  /*游戏图标的位置*/
+}
+.location h2 {
+	float: left;
+	height: 29px;
+	line-height: 29px;
+	font-size: 20px;
+	color: #444866;
+	padding-left: 30px;  /*博雅游戏字体距左边的距离*/
+	background: url(../images/location.png) no-repeat 0 -44px; 
+}
+.location .qlink {
+	float: right;
+	line-height: 20px;
+	height: 20px;
+	margin-top: 4px;
+	color: #444866;
+}
+.location .qlink a.home{
+	width: 20px;
+	height: 20px;
+	background: url(../images/home.png) no-repeat center 3px;
+}
+.location .qlink em {
+	display: inline-block;
+    vertical-align: middle;
+    background: url(../images/icon.png) no-repeat 0 -150px;
+    width: 4px;
+    height: 8px;
+    line-height: 8px;
+    margin: 0 7px;
+}
+.location .qlink label ,
+.location .qlink a {
+	display: inline-block;
+	vertical-align: middle;
+}
+/* aboutmain的abouteft部分 */
+.aboutmain {
+	padding-bottom: 40px;
+
+	width: 1000px;
+	margin: auto;
+	clear: both;
+}
+.aboutmain .aboutleft {
+	float: left;
+    width: 230px;
+    padding-top: 40px;
+}
+.aboutmain .aboutleft .aboutul {
+	width: auto;
+    height: auto;
+}
+.aboutmain .aboutleft .aboutul li {
+	border-bottom: 1px solid #c7d6e5;
+}
+.aboutmain .aboutleft .aboutul li a {
+	display: block;
+    padding: 15px 0;
+}
+.aboutmain .aboutleft .aboutul li.current_aboutli a {
+	color: #38b774;
+}
+.aboutmain .aboutleft .aboutul li h3 {
+	font-size: 1.333em;
+}
+.aboutmain .aboutleft .aboutul li.current_aboutli h3 {
+	background: url(../images/arrow.png) no-repeat right center;
+}
+
+/* aboutmain的abouright部分 */
+.aboutmain .aboutright {
+	float: right;
+    width: 732px;
+    padding-top: 40px;
+}
+.aboutmain .aboutright .about {
+	color: #444866;
+}
+.aboutmain .aboutright .about p {
+	text-indent: 28px;
+    margin-bottom: 30px;
+    line-height: 2.4;
+    font-size: 1.166em;
+}

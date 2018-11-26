@@ -1,0 +1,369 @@
+/* 在这里编辑主页面的css样式 */
+
+/*设置body*/
+body{
+	/*
+	 * 设置body的背景图片，水平方向重复
+	 * 使用ps,截取图片中的一个像素，水平平铺即可
+	 * 1px*472px
+	 * */
+	background: url(../img/bd_bg.png) repeat-x;
+	/*设置一个大的高度，用于测试，测试完删除*/
+	/*height: 3000px;*/
+}
+/*
+ * 固定宽度和居中
+ * 以后哪个标签需要使用w选择器，
+ * 直接在class后面在添加一个w名称即可
+ * */
+
+/*解决content高度塌陷问题的clearfix*/
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+/*兼容IE6*/
+.clearfix{
+	zoom: 1;
+}
+.w{
+	width: 940px;
+	margin: 0 auto;
+}
+/*设置header属性*/
+.header{
+	/*background-color: #bfa;*/
+	/*padding-top: 37px;
+	padding-bottom: 46px;*/
+	padding-top: 37px;
+	padding-bottom: 46px;
+}
+/*设置logo属性*/
+.logo{
+	margin-left: 15px;
+}
+/*设置导航条属性*/
+.nav{
+	/*设置导航条向右浮动*/
+	float: right;
+	/*设置一个上外边距*/
+	margin-top: 22px;
+}
+/*
+ *只设置nav右浮动，还是不能使nav和logo并排显示
+ * 因为logo的div标签，而div标签是一个块元素，浮动元素不能超过块元素
+ * 解决方法有两种：
+ * 1.给logo也设置一个向左的浮动属性，这样就能使两者并排显示
+ * 2.在html中将logo的位置和nav的位置进行互换即可，这种方式相对简单，推荐使用
+ * */
+
+/*
+ *解决完nav和logo并排显示的问题后，还有个问题：ul不是横排显示的，而是竖排显示的
+ * 导致此问题的原因是：li是块标签，要是li也浮动起来，才能实现效果 
+ * */
+.nav li{
+	float: left;
+	/*设置li的上   左右   下   的内边距使其撑开li*/
+	padding: 0 10px 8px;
+	/*设置左边框*/
+	border-left: 1px dashed #d6d6d6;
+}
+/*设置完li左浮动后会将logo往下挤，是因为nav的字体较大所致，减小字体大小既可*/
+/*
+ *设置导航条中超链接的字体大小
+ *选择器尽量写短，所以不用使用.nav li a{}，因为nav中只有一种超链接 
+ */
+.nav a{
+	/*bold要设置在14px前面*/
+	font:  bold 14px Georgia;
+	/*font不能指定颜色，要用color属性*/
+	color: #666666;
+	/*去除下划线*/
+	text-decoration: none;
+}
+/*设置超链接的移入效果*/
+.nav a:hover{
+	color: #D6D6D6;
+	/*设置鼠标移入有下划线属性*/
+	/*text-decoration: underline;*/
+}
+/*
+ * 设置导航中的小标题
+ * 在Chrome浏览器中字体最小支持到12px，1-11px都显示为12px
+ * */
+.nav p{
+	/*字体大小*/
+	font: 11px Tahoma;
+	/*字体颜色*/
+	color: #b7b7b7;
+}
+/*设置banner*/
+.banner{
+	/*设置高度*/
+	height: 356px;
+	/*设置背景   底部居中*/
+	background: url(../img/banner_bg.png) no-repeat bottom center;
+	/*开启相对定位，因为其字标签开启了绝对定位*/
+	position: relative;
+}
+.pointerDiv{
+	/*开启绝对定位*/
+	position: absolute;
+	
+	/*设置导航按钮定位的位置*/
+	top: 314px;
+	left: 15px;
+}
+.pointerDiv a{
+	/*
+	 * a为内联元素，必须使其转变为块元素，才能使用宽高属性
+	 * 两种方法：
+	 * 1.使用display：inline-block;但是，该属性默认元素之间有间隙，要写在同一行才行，
+	 * 但是这样不易于后期维护
+	 * 2.使用浮动float
+	 */
+	float: left;
+	width: 17px;
+	height: 17px;
+	background: url(../img/pointer.png) no-repeat;
+	/*设置导航按钮之间的间隙*/
+	margin-left: 4px;
+}
+/*为a标签设置hover效果，以及将名为active的a标签设置不同的背景颜色*/
+.pointerDiv a:hover,
+.pointerDiv .active{
+	background: url(../img/pointer_active.png) no-repeat;
+}
+/*设置content部分*/
+.content h1{
+	/*设置文本居中*/
+	text-align: center;
+	/*设置字体样式*/
+	font: bold 24px Georgia;
+	color: black;
+	/*设置内边距*/
+	padding: 6px 0 20px 0;
+	/*设置背景*/
+	background: url(../img/line.png) no-repeat bottom center;
+	/*设置一个下外边距*/
+	margin-bottom: 38px;
+}
+/*中间的content部分*/
+.content{
+	/*background: yellowgreen;*/
+}
+/*
+ *中间三个div 
+ * */
+.content .pl,.content .cs,.content .uc,
+.contact .sc,.contact .co,.contact .nu{
+	/*向浮动，使其并列*/
+	float:left;
+	width: 300px;
+	/*background-color: red;*/
+}
+
+.content .cs,
+.contact .co{
+	/*为中间div设置左右外边距*/
+	margin: 0 20px;
+}
+/*设置div中的标签*/
+.content h2{
+	color: #11719e;
+	font: 21px Georgia;
+}
+.content .p0{
+	color: #8c8c8c;
+	font: 12px Tahoma;
+}
+/*设置图片div*/
+.content .imgDiv{
+	width: 299px;
+	/*height: 192px;*/
+	/*加上7px的padding-top就为192px*/
+	height: 185px;
+	background: url(../img/img_bg.png) no-repeat;
+	/*设置图片的上下边距*/
+	margin: 18px 0 18px 0;
+	/*background: #bfa;*/
+	/*设置图片pic123水平居中*/
+	text-align: center;
+	/*
+	 * 设置上内边距是pic123垂直居中，此时注意设置了多少的padding-top，
+	 * 则要在imgDiv的height中减去相应的高度
+	 */
+	padding-top: 7px;
+}
+/*设置p2的文字大小*/
+.content .p2{
+	/**/
+	height: 92px;
+	color: #3e3e3e;
+	font: 13px helvetica;
+}
+/*设置按钮的样式*/
+.content .lm{
+	/*将内联元素a转换为块元素，不然宽高不起作用*/
+	display: block;
+	/*设置宽和高*/
+	width: 163px;
+	height: 40px;
+	background: url(../img/btn1.jpg) no-repeat;
+	/*去除超链接下划线*/
+	text-decoration: none;
+	/*设置字体颜色*/
+	color: #016999;
+	/*设置字体样式,设置行高为40px,是字体居中显示*/
+	font: 12px/40px helvetica;
+	/*首行缩进*/
+	text-indent: 1em;
+	/*设置下外边距*/
+	margin-bottom: 35px;
+}
+/*contact部分*/
+.contact{
+	background: url(../img/line.png) no-repeat top center;
+}
+/*设置练习栏中的表单项*/
+.contact .txt{
+	width: 276px;
+	height: 33px;
+	/*字体居中，兼容IE6*/
+	line-height: 33px;
+	/*设置背景图片*/
+	background: url(../img/input.png) no-repeat;
+	border: none;
+	/*去除默认内边距*/
+	padding: 0 10px ;
+	margin: 0 0 16px;
+}
+.contact .tarea{
+	width: 276px;
+	height: 114px;
+	/*设置背景图片*/
+	background: url(../img/textarea.png);
+	border: none;
+	/*去除滚动条*/
+	overflow: auto;
+	/*设置文本域不能调整大小*/
+	resize: none;
+	/*去除默认内外边距*/
+	padding: 10px ;
+	margin: 0;
+}
+.contact .btn{
+	width: 163px;
+	height: 32px;
+	background: url(../img/btn2.jpg) no-repeat;
+	border: none;
+	/*去除默认内外边距*/
+	padding: 0;
+	/*设置按钮的上下外边距*/
+	margin: 11px 0 23px;
+	/*设置字体*/
+	color: white;
+	font:13px Georgia;
+	/*设置文字位置*/
+	text-align: left;
+	text-indent: 1em;
+	/*cursor可以用来设置鼠标指针的样式*/
+	cursor: pointer;
+}
+/*设置标题*/
+.contact h2{
+	color: #444444;
+	font: 18px Georgia;
+	/*设置下边框*/
+	border-bottom: 1px dashed #d3d3d3;
+	/*设置下边距*/
+	padding: 44px 0 10px;
+	/*设置下外边距*/
+	margin-bottom: 15px;
+}
+/**/
+.contact h2{
+	color: #444444;
+	/*设置一倍行高*/
+	font: 18px/1 Georgia;
+}
+/*设置联系栏左侧*/
+.sc .p1{
+	color: #444444;
+	/*设置一倍行高*/
+	font: 12px/1 Tahoma;
+}
+/**/
+.sc .icon{
+	/*设置字体大小为0,去除空格*/
+	font-size: 0;
+	/*设置上外边距,让所有小图标下移*/
+	margin-top: 4px;
+}
+/*设置小图标*/
+.sc .icon a{
+	margin-right: 6px;
+}
+/*设置左侧第二个小图标*/
+.sc .nl{
+	color: #444444;
+	font: bold 18px Gill Sans MT;
+	/*设置内边距*/
+	padding:30px 0 10px;
+}
+/*设置左侧表单项*/
+.sc .txt{
+	margin-bottom: 0px;
+	margin-top: 15px;
+}
+/*设置联系栏的右侧*/
+.nu img{
+	float: left;
+	margin-right: 8px;
+}
+.nu .btn{
+	margin-top: 0px;
+}
+/*设置字体样式*/
+.nu p{
+	color: #444444;
+	height: 58px;
+	/*单独为IE6设置高度*/
+	_height: 60px;
+	font: 12px/1 helvetica;
+	/*设置下边框*/
+	border-bottom: 1px dashed #d3d3d3;
+	margin-bottom: 14px;
+	padding-bottom: 9px;
+}
+/*设置底部*/
+.footer{
+	height: 173px;
+	background: #333333;
+	/*设置上边框*/
+	border-top: 10px solid #4c4c4c;
+}
+/*设置底部的样式*/
+.footer a,
+.footer p{
+	color: #999999;
+	font: 11px helvetica;
+	text-decoration: none;
+}
+.footer a:hover{
+	color: #D6D6D6;
+}
+.footer .w{
+	/*margin: 18px 23px 0px 8px;*/
+	padding-top: 18px;
+}
+.footer p{
+	margin-left: 8px;
+	margin-right: 23px;
+	margin-bottom: 6px;
+}
+.footer .copy{
+	float: right;
+}

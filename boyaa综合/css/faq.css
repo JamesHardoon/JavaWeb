@@ -1,0 +1,143 @@
+.faqbanner {
+	width: 100%;
+	height: 254px;
+	background: #fffaf4 url(../images/faqbanner.jpg) repeat-x center top;
+}
+.location {
+	height: 29px;
+	padding: 25px 0 15px;
+	border-bottom: 1px solid #c7d6e5;
+}
+.location h2.faq_t {
+	background-position: 0 -188px;  /*游戏图标的位置*/
+}
+.location h2 {
+	float: left;
+	height: 29px;
+	line-height: 29px;
+	font-size: 20px;
+	color: #444866;
+	padding-left: 30px;  /*博雅游戏字体距左边的距离*/
+	background: url(../images/location.png) no-repeat 0 -44px; 
+}
+.location .qlink {
+	float: right;
+	line-height: 20px;
+	height: 20px;
+	margin-top: 4px;
+	color: #444866;
+}
+/* location的faq部分 */
+.location .qlink a.home{
+	width: 20px;
+	height: 20px;
+	background: url(../images/home.png) no-repeat center 3px;
+}
+.location .qlink em {
+	display: inline-block;
+    vertical-align: middle;
+    background: url(../images/icon.png) no-repeat 0 -150px;
+    width: 4px;
+    height: 8px;
+    line-height: 8px;
+    margin: 0 7px;
+}
+.location .qlink label ,
+.location .qlink a {
+	display: inline-block;
+	vertical-align: middle;
+}
+/* faqmain的faqcontact部分 */
+.faqmain {
+	padding-bottom: 40px;
+
+	width: 1000px;
+	// height: 1197px;
+	margin: auto;
+	clear: both;
+}
+.faqmain .faqcontact {
+	padding: 30px 0 26px 0;
+    overflow: hidden;
+    color: #444866;
+}
+.faqmain .faqcontact .faqconul {
+	width: 105%;
+}
+.faqmain .faqcontact .faqconul li {
+	float: left;
+    width: 320px;
+    height: 134px;
+    background-color: #f1f1f1;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 3px;
+}
+.faqmain .faqcontact .faqconul li .faqconimg {
+	width: 38px;
+    height: 68px;
+    background: url(../images/faqicon.png) no-repeat;
+    margin: auto;
+    padding-right: 12px;
+}
+.faqmain .faqcontact .faqconul li.faqconlist2 .faqconimg {
+	background-position: 0 -202px;
+    width: 60px;
+}
+.faqmain .faqcontact .faqconul li.faqconlist3 .faqconimg {
+	    background-position: 0 -136px;
+}
+/* faqmain的faqlist部分 */
+.faqmain .faqlist {
+	color: #444866;
+    padding-bottom: 40px;
+} 
+.faqmain .faqlist h3.faqlist_title {
+	font-weight: normal;
+    font-size: 1.166em;
+    line-height: 62px;
+}
+.faqmain .faqlist .faqlist_option {
+	overflow: hidden;
+    border-right: 1px solid #dbe1e7;
+    border-bottom: 1px solid #dbe1e7;
+    width: 999px;
+} 
+.faqmain .faqlist .faqlist_option .faqlistul {
+	width: 105%;
+}
+.faqmain .faqlist .faqlist_option .faqlistul li {
+	text-align: center;
+    border-top: 1px solid #dbe1e7;
+    border-left: 1px solid #dbe1e7;
+    float: left;
+    width: 249px;
+    height: 150px;
+}
+// .faqmain .faqlist .faqlist_option .faqlistul li:hover {
+//  	// opacity: 0.6;
+//  	//background-color: gray;
+//  	//color: #F1F1F1;
+//  }  
+.faqmain .faqlist .faqlist_option .faqlistul li .default a {
+	cursor: default;
+}
+.faqmain .faqlist .faqlist_option .faqlistul li a {
+	display: block;
+    width: 249px;
+    height: 150px;
+    background-color: #fff;
+    transition: all 0.2s linear 0s;
+}
+.faqmain .faqlist .faqlist_option .faqlistul li a .faqlistbox {
+	padding-top: 35px;
+}
+.faqmain .faqlist .faqlist_option .faqlistul li a .faqlistbox .faqlistimg img {
+	width: 70px;
+    height: 70px;
+}
+.faqmain .faqlist .faqlist_option .faqlistul li a .faqlistbox p {
+	line-height: 36px;
+    color: #444866;
+    font-size: 1.166em
+}

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>博雅游戏|博雅互动-深圳市东方博雅科技有限公司</title>
+	<meta name="keywords" content="麻将、斗地主、扑克">
+	<meta name=description content="深圳博雅游戏公司">
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/games.css">
+	<script type="text/javascript">
+    	window.onload=function(){
+	        var changeglclick = document.getElementById("glclick").getElementsByTagName("li");
+	        for (var i = 0; i < changeglclick.length; i++) {
+	            changeglclick[i].index = i;
+	            changeglclick[i].onclick = function(){
+	                for (var j = 0; j < changeglclick.length; j++) {
+	                    changeglclick[j].className = "";
+	                }
+	                this.className = "on";
+	            }
+	        }
+        }
+    </script>
+</head>
+<body>
+	<!-- 网页头部开始 -->
+	<div class="header">
+		<div class="w clearfix">
+			<h1 class="logo">
+				<a href="#">深圳博雅游戏</a>
+			</h1>
+			<div class="nav">
+				<ul>
+					<li class="current"><a href="index.html">首页</a></li>
+					<li><a href="games.html">博雅游戏</a></li>
+					<li><a href="news.html">博雅新闻</a></li>
+					<li><a href="about.html">关于我们</a></li>
+					<li><a href="faq.html">客服中心</a></li>
+					<li><a href="#">投资者关系</a></li>
+					<li class="joinus"><a href="#">加入我们</a></li>
+				</ul>
+			</div>
+			<span class="changelang fr">
+					<a href="#">中文</a>
+					&nbsp;
+					<a href="#">EN</a>
+			</span>
+		</div>
+	</div>
+	<!-- 网页头部结束 -->
+	
+	<!-- banner部分开始 -->
+	<div class="gamesbanner"></div>
+	<!-- banner部分结束 -->
+
+	<!-- location部分开始 -->
+	<div class="location w ">  <!-- w版心 -->
+			<span class="qlink">
+				<a class="home" href="index.html"></a>
+				<em></em>
+				<label>博雅游戏</label>
+			</span>
+			<h2 class="game_t">博雅游戏</h2>
+	</div>
+	<!-- location部分结束 -->
+
+	<!-- gamesmain部分开始 -->
+	<div class="gamesmain w">
+		<!-- gleft开始 -->
+		<div class="gleft">
+			<div class="gnav">
+				<ul class="gnavlist"  id="glclick">
+					<li class="on"><a href="javascript:;">iPhone<i class="iPhone"></i></a></li>
+					<li><a href="javascript:;">Android<i class="Android"></i></a></li>
+					<li><a href="javascript:;">iPad<i class="iPad"></i></a></li>
+					<li><a href="javascript:;">PC<i class="PC"></i></a></li>
+					<li><a href="javascript:;">TV<i class="TV"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- gleft结束 -->
+		<!-- gright开始 -->
+		<div class="gright">
+			<div class="gamelistcon" style="display: block;">
+				<ul class="gamelist">
+					<li>
+						<h3>
+							<a href="">
+								德州扑克
+								<span>Texas Hold'em poker</span>
+							</a>
+						</h3>
+						<div class="gamepic">
+							<a href="">
+								<img alt="德州扑克" src="images/p1.jpg" alt="">
+							</a>
+						</div>
+						<div class="gamelink">
+							<span class="appstore">
+								<span class="com">
+									<a href="" target="_blank">App Store</a>
+								</span>
+								<h3 class="phone">德州扑克</h3>
+								<!-- <h3 class="phone"></h3> -->
+							</span>
+							<span class="ewmlink">
+								<span class="com">
+									<a href="#">二维码下载</a>
+									<i>
+										<img src="images/dzht60116.png" alt="德州扑克">
+									</i>
+								</span>
+								<span class="phone texas_poker">
+									<a href="" target="_blank">
+										<i class="do_load">下载</i>
+									</a>
+								</span>
+							</span>
+						</div>
+					</li>
+					<li>
+						<h3>
+							<a href="">
+								斗地主
+								<span>landlords</span>
+							</a>
+						</h3>
+						<div class="gamepic">
+							<a href="">
+								<img alt="斗地主" src="images/gamepic3.jpg" alt="">
+							</a>
+						</div>
+						<div class="gamelink">
+							<span class="appstore">
+								<span class="com">
+									<a href="" target="_blank">App Store</a>
+								</span>
+								<h3 class="phone">斗地主</h3>
+								<!-- <h3 class="phone"></h3> -->
+							</span>
+							<span class="ewmlink">
+								<span class="com">
+									<a href="#">二维码下载</a>
+									<i>
+										<img src="images/landlords116.png" alt="斗地主">
+									</i>
+								</span>
+								<span class="phone landlords">
+									<a href="" target="_blank">
+										<i class="do_load">下载</i>
+									</a>
+								</span>
+							</span>
+						</div>
+					</li>
+					<li>
+						<h3>
+							<a href="">
+								麻将全集
+								<span>mahjong games</span>
+							</a>
+						</h3>
+						<div class="gamepic">
+							<a href="">
+								<img alt="麻将全集" src="images/gamepic15.jpg" alt="">
+							</a>
+						</div>
+						<div class="gamelink">
+							<span class="appstore">
+								<span class="com">
+									<a href="" target="_blank">App Store</a>
+								</span>
+								 <h3 class="phone">麻将全集</h3>
+								 <!-- <h3 class="phone"></h3> -->
+							</span>
+							<span class="ewmlink">
+								<span class="com">
+									<a href="#">二维码下载</a>
+									<i>
+										<img src="images/majiang116.png" alt="麻将全集">
+									</i>
+								</span>
+								<span class="phone mahjong">
+									<a href="" target="_blank">
+										<i class="do_load">下载</i>
+									</a>
+								</span>
+							</span>
+						</div>
+					</li>
+					<li>
+						<h3>
+							<a href="">
+								四川麻将
+								<span>sichuan mahjong</span>
+							</a>
+						</h3>
+						<div class="gamepic">
+							<a href="">
+								<img alt="四川麻将" src="images/gamepic2.jpg" alt="">
+							</a>
+						</div>
+						<div class="gamelink">
+							<span class="appstore">
+								<span class="com">
+									<a href="" target="_blank">App Store</a>
+								</span>
+								<h3 class="phone">四川麻将</h3>
+								<!-- <h3 class="phone"></h3> -->
+							</span>
+							<span class="ewmlink">
+								<span class="com">
+									<a href="#">二维码下载</a>
+									<i>
+										<img src="images/majiang116.png" alt="四川麻将">
+									</i>
+								</span>
+								<span class="phone sichuan_mahjong">
+									<a href="" target="_blank">
+										<i class="do_load">下载</i>
+									</a>
+								</span>
+							</span>
+						</div>
+					</li>
+					<li>
+						<h3>
+							<a href="">
+								 四人斗地主 
+								<span>FOUR LANDLORDS</span>
+							</a>
+						</h3>
+						<div class="gamepic">
+							<a href="">
+								<img alt="四人斗地主" src="images/gamepic6.jpg" alt="">
+							</a>
+						</div>
+						<div class="gamelink">
+							<span class="appstore">
+								<span class="com">
+									<a href="" target="_blank">App Store</a>
+								</span>
+								<h3 class="phone">四人斗地主</h3>
+								<!-- <h3 class="phone"></h3> -->
+							</span>
+							<span class="ewmlink">
+								<span class="com">
+									<a href="#">二维码下载</a>
+									<i>
+										<img src="images/four_landlords116.png" alt="四人斗地主">
+									</i>
+								</span>
+								<span class="phone four_landlords">
+									<a href="" target="_blank">
+										<i class="do_load">下载</i>
+									</a>
+								</span>
+							</span>
+						</div>
+					</li>
+					<li>
+						<h3>
+							<a href="">
+								 中国象棋 
+								<span>chinese chess of boyaa</span>
+							</a>
+						</h3>
+						<div class="gamepic">
+							<a href="">
+								<img alt=" 中国象棋 " src="images/gamepic10.jpg" alt="">
+							</a>
+						</div>
+						<div class="gamelink">
+							<span class="appstore">
+								<span class="com">
+									<a href="" target="_blank">App Store</a>
+								</span>
+								<h3 class="phone"> 中国象棋 </h3>
+								<!-- <h3 class="phone"></h3> -->
+							</span>
+							<span class="ewmlink">
+								<span class="com">
+									<a href="#">二维码下载</a>
+									<i>
+										<img src="images/chinese_chess116.png" alt=" 中国象棋 ">
+									</i>
+								</span>
+								<span class="phone chinese_chess">
+									<a href="" target="_blank">
+										<i class="do_load">下载</i>
+									</a>
+								</span>
+							</span>
+						</div>
+					</li>
+				</ul>
+				<div class="loadmore" style="display: none;"></div>
+			</div>
+		</div>
+		<!-- gright结束 -->
+	</div>
+	<!-- gamesmain部分结束 -->
+
+	<!-- 网页底部开始 -->
+	<div class="footer">
+		<div class="w clearfix">
+			<p>
+				<a href="sitemap.html">网站地图</a>
+				&nbsp;|&nbsp;
+				<a href="announce.html">免责声明</a>
+				&nbsp;|&nbsp;
+				<a href="jubao.html">举报监督</a>
+			</p>
+			<p>
+				Copyright © 2004 - 2019 博雅互动(Boyaa Interactive)
+				<a href="#">粤ICP备05062536号</a>
+			</p>
+			<p>
+				  网络文化经营许可证：粤网文[2015]1991-405号 | 互联网出版许可证：新出网证（粤）字062号 | 增值电信业务经营许可证：粤B2-20110513
+				<img src="images/govicon.gif" alt="">
+			</p>
+		</div>
+	</div>
+	<!-- TOP按钮 -->
+	<a href="#top" class="gotop"></a>
+	<!-- 网页底部结束 -->
+</body>
+</html>
